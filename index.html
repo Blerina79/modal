@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title> Création Modal</title>
+</head>
+<body>
+    <!------button ouverture de la modale-->
+    <a href="#" role="button" data-target="#modal" data-toggle="modal">Ouvrir la modale1</a>
+     <!------button ouverture de la modale-->
+     <a href="#" role="button" data-target="#modal2" data-toggle="modal">Ouvrir la modale2</a>
+
+    <!--------Modale1-->
+    <div class="modal"  id="modal" role="dialog">
+        <div class="modal-content">
+            <div  class="modal-off"  data-dismiss="dialog">X</div>
+            <div class="modal-header">
+                <p>Titre de la modale 1</p>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ratione delectus a explicabo perspiciatis exercitationem nam, eos atque voluptates nostrum repellendus consequatur consequuntur optio. Odit quidem labore illum autem non obcaecati expedita omnis laudantium impedit quo voluptates facere perspiciatis, aperiam numquam nulla minima praesentium assumenda fugit id deleniti. Delectus, ex.   
+            </div>
+            <div class="modal-footer">
+                <a href="#"  class="btn  btn-off"  role="button"  data-dismiss="dialog">Fermer</a>
+                <a href="#" class="btn"  role="button">Valider</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--------Modale2-->
+    <div class="modal"  id="modal2" role="dialog">
+        <div class="modal-content">
+            <div  class="modal-off"  data-dismiss="dialog">X</div>
+            <div class="modal-header">
+                <p>Titre de la modale 2</p>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ratione delectus a explicabo perspiciatis exercitationem nam, eos atque voluptates nostrum repellendus consequatur consequuntur optio. Odit quidem labore illum autem non obcaecati expedita omnis laudantium impedit quo voluptates facere perspiciatis, aperiam numquam nulla minima praesentium assumenda fugit id deleniti. Delectus, ex.   
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn  btn-off"  role="button"  data-dismiss="dialog">Fermer</a>
+                <a href="#" class="btn"  role="button">Valider</a>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/scripts.js" defer></script>
+    
+</body>
+</html>
